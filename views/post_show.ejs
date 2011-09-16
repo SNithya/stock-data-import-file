@@ -1,0 +1,13 @@
+<h1></h1>
+<div class='post'>
+  <div class='ModelCode'>ModelCode : <%= post.ModelCode %></div>  
+<div class='ItemCode'>ItemCode : <%= post.ItemCode %></div>
+  <div class='ProductName'>ProductName : <%= post.ProductName %></div>
+  <div class='StockQty'>StockQty : <%= post.StockQty %></div>
+  <div class='Mrp'>Mrp : <%= post.Mrp %></div>
+  <div class='CashandCarry'>CashandCarry : <%= post.CashandCarry %></div>
+  
+    </form>
+  </div>
+   <a href="/posts/<%= post._id.toHexString() %>/edit">Edit</a>
+</div>
